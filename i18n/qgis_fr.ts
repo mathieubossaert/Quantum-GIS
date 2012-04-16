@@ -4765,7 +4765,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1006"/>
         <source>Text Annotation</source>
-        <translation>Annotation de texte</translation>
+        <translation>Annotation avec un texte</translation>
     </message>
     <message>
         <source>Form annotation</source>
@@ -5071,7 +5071,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1018"/>
         <source>Form Annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Annoter avec un formulaire</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1101"/>
@@ -5081,7 +5081,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1125"/>
         <source>Add MSSQL Spatial Layer...</source>
-        <translation>Ajouter une couche MMSQL spatiale...</translation>
+        <translation>Ajouter une couche MSSQL spatiale...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1161"/>
@@ -5252,7 +5252,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
         <location filename="../src/ui/qgisapp.ui" line="1600"/>
         <location filename="../src/ui/qgisapp.ui" line="1603"/>
         <source>Touch zoom and pan</source>
-        <translation type="unfinished"></translation>
+        <translation>Panorama et zoom tactiles</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1615"/>
@@ -25445,7 +25445,8 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="482"/>
         <source>Show Feature Count</source>
-        <translation>Montrer le décompte des entités</translation>
+        <translatorcomment>proposition qui semble plus explicite.</translatorcomment>
+        <translation>Afficher le nombre d&apos;entités</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="492"/>
@@ -25867,7 +25868,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="57"/>
         <source>Not a vector layer</source>
-        <translation>Pas une couche vecteur</translation>
+        <translation>Ceci n&apos;est pas une couche vectorielle</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="58"/>
@@ -26108,7 +26109,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="42"/>
         <source>Not a vector layer</source>
-        <translation>N&apos;est pas une couche vecteur</translation>
+        <translation type="unfinished">Ceci n&apos;est pas une couche vectorielle</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="43"/>
@@ -26448,7 +26449,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgsmaptoolreshape.cpp" line="41"/>
         <source>Not a vector layer</source>
-        <translation>Ce n&apos;est pas une couche vecteur</translation>
+        <translation>Ceci n&apos;est pas une couche vectorielle</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolreshape.cpp" line="42"/>
@@ -26597,7 +26598,7 @@ Ceci est peut-être dûà votre connexion ou celle du serveru WMS.
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="41"/>
         <source>Not a vector layer</source>
-        <translation>N&apos;est pas une couche vecteur</translation>
+        <translation>Ceci n&apos;est pas une couche vectorielle</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="42"/>
@@ -36017,7 +36018,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitedataitems.cpp" line="179"/>
         <source>%1: Not a vector layer!</source>
-        <translation>%1 : N&apos;est pas une couche vecteur !</translation>
+        <translation>%1 : N&apos;est pas une couche vectorielle !</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitedataitems.cpp" line="195"/>
@@ -38158,8 +38159,8 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Nous travaillons dur pour vous produire ce beau logiciel. Vous appréciez le grand nombre de fonctionnalités proposées ? Vous ressentez de bonnes sensations en utilisant ce logiciel ? Quantum GIS est le fruit du travail attentionné d&apos;une équipe dédiée de développeurs. Nous attendons de vous que vous copiez et partagez ce logiciel avec le plus grand nombre de personnes.
-Si QGIS vous fait économiser le l&apos;argent ou si vous aimez notre travail et que vous avez la possibilité de nous aider financièrement, pensez à supporter le développement du logiciel et devenez sponsor. Nous utilisons utilisons cet argent pour financer le travail et les couts relatifs aux hackfest semestriels, et plus générallement pour atteindre les objectifs du projet. Visitez &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship.html&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;la page consacrée au soutien de QGIS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; pour plus d&apos;informations. La liste ci-dessous présentes les personnes ou les sociétés qui nous aident financièrement - un grand MERCI à vous tous !&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Nous travaillons dur pour vous produire ce beau logiciel. Vous appréciez le grand nombre de fonctionnalités proposées ? Vous ressentez de bonnes sensations en utilisant ce logiciel ?&lt;br&gt;Quantum GIS est le fruit du travail attentionné d&apos;une équipe dédiée de développeurs. Nous attendons de vous que vous copiez et partagiez ce logiciel avec le plus grand nombre de personnes.&lt;br&gt;
+Si QGIS vous fait économiser de l&apos;argent ou si vous aimez notre travail et que vous avez la possibilité de nous aider financièrement, pensez à supporter le développement du logiciel et devenez sponsor. Cet argent sera utilisé pour financer le travail et les couts relatifs aux hackfest semestriels, et plus généralement pour atteindre les objectifs du projet.&lt;br&gt;Visitez &lt;/span&gt;&lt;a href=&quot;http://qgis.org/en/sponsorship.html&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;la page consacrée au soutien de QGIS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; pour plus d&apos;informations. La liste ci-dessous présente les personnes physiques ou morales qui nous aident financièrement - un grand MERCI à tous !&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;&quot;&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;2011 Sponsors&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -38902,7 +38903,7 @@ Voulez-vous l&apos;&apos;écraser ?</translation>
     <message>
         <location filename="../src/ui/qgstextannotationdialogbase.ui" line="14"/>
         <source>Annotation text</source>
-        <translation>Annotation de texte</translation>
+        <translation>Annotation avec un texte</translation>
     </message>
     <message>
         <location filename="../src/ui/qgstextannotationdialogbase.ui" line="41"/>
@@ -39083,7 +39084,7 @@ Voulez-vous l&apos;&apos;écraser ?</translation>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="184"/>
         <source>If QGIS is saving you money or you like our work and have the financial ability to help, please consider sponsoring the development of Quantum GIS. We use money from sponsors to pay for travel and costs related to our bi-annual hackfests, and to generally support the goals of our project.  Please see the &lt;a href=&quot;http://qgis.org/en/sponsorship.html&quot;&gt;QGIS Sponsorship Web Page&lt;/a&gt; for more details.</source>
-        <translation>Si QGIS vous permet d&apos;économiser de l&apos;agent ou que vous aimiez notre travail et ayez les moyens financiers d&apos;aider alors songez à parrainer le projet. Nous utiliserons ces ressources pour organiser nos rencontres biannuelles et améliorer le logiciel. Veuillez consulter la page de &lt;/span&gt;&lt;a href=&quot;http://qgis.org/fr/sponsorship.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; text-decoration: underline; color:#0000ff;&quot;&gt; parrainage de QGIS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;;&quot;&gt; pour plus de détails.</translation>
+        <translation>Que QGIS vous permette d&apos;économiser de l&apos;argent ou que vous aimiez notre travail, si vous avez les moyens financiers d&apos;aider alors songez à parrainer le projet. Nous utiliserons ces ressources pour organiser nos rencontres biannuelles et améliorer le logiciel. Veuillez consulter la page de &lt;/span&gt;&lt;a href=&quot;http://qgis.org/fr/sponsorship.html&quot;&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;; text-decoration: underline; color:#0000ff;&quot;&gt; parrainage de QGIS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Ubuntu&apos;;&quot;&gt; pour plus de détails.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="194"/>
